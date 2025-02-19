@@ -1,0 +1,243 @@
+BMW'S SECRET WORLD
+The best investment you can make
+
+site oficial
+visite a fabrica
+fale-conosco
+FAQ
+[MENU]
+
+COMO SURGIU A MARCA BMW?
+
+Apesar de a BMW ser uma empresa de veículos e motocicletas, ela iniciou em um nicho de mercado completamente distinto. Ela surgiu por volta dos anos de 1916 em meio a 1ª Guerra Mundial. Nessa época, ela produzia motores para os aviões da força aérea alemã.
+Como a derrota do então Império Alemão, foi assinado o famoso Tratado de Versalhes no ano de 1919. existia a proibição da fabricação de armas terrestres e aéreas. Assim, a poderosa indústria de aeronaves precisou se reinventar.
+Contudo, os simples produtores de motores de avião resolveram partir para um mercado totalmente novo e pouco explorado. Assim, em 1922 surgia a BMW.
+
+[FOTO][FOTO][FOTO][FOTO][FOTO][FOTO][FOTO][FOTO]
+
+Franz Joseph Popp, Karl Rapp e Camillo Castiglioni fundaram a empresa. Eles chamaram a empresa de Bayerische Motoren Werke (“Fábrica de Motores da Baviera”, traduzido do alemão), que mais tarde passou a ser conhecida somente pela abreviação “BMW”.
+
+PRIMEIRO CARRO DA BMW
+
+O primeiro carro produzido pela marca foi o Dixi, embora o veículo não tenha sido necessariamente projetado pela BMW. Na verdade, o Dixi era praticamente um carro da britânica Austin Motor Company, sendo que o mesmo veículo tinha sido produzido e comercializado no Japão como um Datsun e nos Estados Unidos como um Bantum.
+
+[FOTO][FOTO][FOTO][FOTO][FOTO][FOTO][FOTO][FOTO]
+
+SEDE DA BMW
+
+A sede da BMW em Munique tem um design bastante incomum. Na prática, o prédio representa a forma e o design dos famosos motores de quatro cilindros da BMW. Isso lhe conferiu um design diferenciado e que certamente faz com que a sede da empresa se destaque em meio à paisagem circundante.
+
+[FOTO][FOTO][FOTO][FOTO][FOTO][FOTO][FOTO][FOTO]
+
+OS CARROS MAIS VENDIDOS DESDE DE 2002!
+
+1º BMW 320I - 58.830 unidades
+2º BMW X1 - 52.102 unidades
+3º BMW X3 - 12.488 unidades
+4º BMW X5 - 11.237 unidades
+5º BMW X4 - 7.983 unidades
+6º BMW X6 - 6.873 unidades
+7º BMW 118I - 6.559 unidades
+8º BMW 328I - 5.818 unidades
+9º BMW 120I - 4.560 unidades
+10º BMW Z4 - 2.998 unidades
+
+O QUE O ENTUSIASMA NO NOVO BMW iX?
+
+[VIDEO][VIDEO][VIDEO][VIDEO][VIDEO][VIDEO][VIDEO]
+
+O novo BMW iX e o BMW iX M70. 100% elétrico. Um interior adaptável de alta tecnologia ao lado de tecnologia discretamente integrada inspira uma sensação sensorial silenciosa a cada viagem. Agora, com desempenho eletrificado de nível superior e uma autonomia de direção estendida que redefine a jornada à frente, dando a você a alma para dirigir como nunca antes.
+
+BMW GROUP REQUER SUA CONFIANÇA | ENTRETANTO SUAS politicas e privacidades.
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --cor01: #062FE6;
+    --cor02: #2772EB;
+    --cor03: #1eadfa;
+    --cor04: #31EBDE;
+    --cor05: #EA1700;
+
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-destaque: 'Roboto';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #a3ddff;
+}
+
+header {
+    background-color: var(--cor02);
+    background-image: linear-gradient(to bottom, var(--cor03), var(--cor01));
+    text-align: center;
+    padding: 20px;
+}
+
+header > h1 {
+    color: white;
+    font-family: var(--fonte-destaque);
+    margin-bottom: 6px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.37);
+}
+
+header > p {
+    color: white;
+    font-family: var(--fonte-padrao);
+    text-shadow: 5px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+nav {
+    background-color: var(--cor01);
+    font-family: var(--fonte-padrao);
+    padding: 10px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.555);
+}
+
+nav > a {
+    color: white;
+    padding: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    background-color: var(--cor04);
+    color: var(--cor01);
+    border-radius: 5px;
+    text-decoration: underline;
+    transition-duration: 0.5s;
+}
+
+nav > a:focus {
+    color: var(--cor05);
+}
+
+main {
+    background-color: white;
+    padding: 20px;    
+    min-width: 320px;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.795);
+    margin-bottom: 20px; /*margim de baixo*/
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+main h1 {
+    font-family: var(--fonte-destaque);
+    background-image: linear-gradient(to right, var(--cor03), var(--cor02) ,#fc6a6a ,white ,white);
+    margin: 12px 0px 0px -20px;
+    padding-left: 15px;
+}
+
+main h2 {
+    font-family: var(--fonte-destaque);
+    background-image: linear-gradient(to right, var(--cor03), var(--cor02), #fc6a6a,white, white, white);
+    margin: 12px 0px 0px -20px;
+    padding-left: 15px;
+}
+
+main p {
+    font-family: var(--fonte-padrao);
+    text-align: justify;
+    margin: 15px 10px;
+    font-size: 18px;
+    line-height: 1.5em;
+    text-indent: 10px;
+}
+
+main strong {
+    color: #041d8b;
+    font-weight: bolder;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #031972;
+    background-color: var(--cor03);
+    padding-right: 3px;
+    padding-left: 3px;
+    border-radius: 2px;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor05);
+}
+
+picture > abbr > img {
+    display: block;
+    margin: auto;
+    padding-right: 50%;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+div.video {
+    background-color: var(--cor01);
+    margin: 25px -20px 0px -20px;
+    padding: 20px 20px 15px 20px;
+    padding-bottom: 56%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    background-color: var(--cor03);
+    margin: 32px 18px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.637);
+}
+
+aside > h3 {
+    font-family: var(--fonte-destaque);
+    background-color: var(--cor01);
+    color: white;
+    padding: 5px;
+    margin: -5px -5px 0px -5px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+    padding-bottom: 10px;
+}
+
+footer {
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor01);
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: var(--cor04);
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: var(--cor05);
+}
