@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.colu1 {
+            background-color: red;
+        }
+
+        col.colu2 {
+            background-color: yellow;
+        } 
+        
+        col.colu3 {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercícios de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="colu1">
+            <col class="colu2">
+            <col class="colu3" span="2">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Faxinera</td>
+        </tr>
+        <tr>
+            <td>Helio</td>
+            <td>M</td>
+            <td>31</td>
+            <td>Frentista</td>
+        </tr>
+        <tr>
+            <td>Denis</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Vendedor</td>
+        </tr>
+        <tr>
+            <td>Elias</td>
+            <td>M</td>
+            <td>18</td>
+            <td>Estoquista</td>
+        </tr>
+        <tr>
+            <td>Marcela</td>
+            <td>F</td>
+            <td>26</td>
+            <td>Analista de sistema</td>
+        </tr>
+        <tr>
+            <td>Roberto</td>
+            <td>M</td>
+            <td>29</td>
+            <td>Programador</td>
+        </tr>
+    </table>
+</body>
+</html>
