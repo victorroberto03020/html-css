@@ -20,6 +20,8 @@ body {
     margin: 0px;
 }
 
+/* CABEÇALHO */
+
 header {
     display: flex;
     margin: -5px;
@@ -28,17 +30,23 @@ header {
 
 header > img {
     padding: 10px;
+    padding-left: 12%;
+
 }
 
 header > h1 {
     font-family: var(--fonte-título);
     font-size: 2.2em;
+    text-align: center;
+    padding-left: 12%;
+    padding-right: 10%;
     margin: auto;
 }
 
 header > p {
     font-size: 4.1em;
     margin: auto;
+    padding-right: 10%;
 }
 
 #menu:hover {
@@ -46,11 +54,16 @@ header > p {
     transition-duration: 0.5s;
 }
 
+/* CONTEÚDO */
+
 main {
     border-left: 5px solid var(--cor05);
     border-right: 5px solid var(--cor05);
     border: 3px solid var(--cor05);
     margin: -5px;
+    min-width: 250px;
+    max-width: 1350px;
+    margin: auto;
 }
 
 main > article > h1 {
@@ -65,18 +78,11 @@ main > article > p {
     font-family: var(--fonte-padrão);
     text-align: justify;
     font-size: 19px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 17%;
+    padding-right: 17%;
     font-size: 24px;
     text-indent: 10px;
     line-height: 1.5em;
-}
-
-img {
-    display: block;
-    margin: auto;
-    padding-bottom: 44px;
-    margin-top: -15px;
 }
 
 a {
@@ -87,4 +93,87 @@ a {
 a:hover {
     text-decoration: underline;
     color: var(--cor03);
+}
+
+main > article > abbr > img {
+    display: block;
+    margin: auto;
+    
+}
+
+table {
+    margin-top: 38px;
+    border-collapse: collapse;
+    width: 675px;
+    text-align: center;
+}
+
+#tbl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%vh;
+    overflow-x: auto;
+    
+}
+
+caption {
+    padding-top: 9px;
+    padding-bottom: 4px;
+    font-size: 19px;
+}
+
+#titu {
+    font-size: 1.1em;
+    background-color: var(--cor01);
+}
+
+th {
+    border: 1px solid black;
+    font-family: var(--fonte-título);
+    font-size: 1em;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid black;
+    font-family: var(--fonte-padrão);
+    padding: 5px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(211, 211, 211, 0.192);
+}
+
+
+div.video {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%vh;
+}
+
+#desc {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+
+/* FOOTER */
+
+footer {
+    height: 100%vh;
+    background-color: var(--cor02);
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    text-align: center;
+}
+
+#prog {
+    font-family: var(--fonte-título);
+    font-size: 15px;
+    display: inline;   
 }
