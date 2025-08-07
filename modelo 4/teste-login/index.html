@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquerie.css">       
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
     <title>Formulário de Login</title>
 </head>
 <body>
@@ -19,19 +21,24 @@
                 <form action="login.php" method="post" autocomplete="on">
                     
                     <div class="campo">
+                        <span class="material-symbols-outlined">person</span>
+
                         <input type="email" name="login" id="ilogin" placeholder="Seu email" autocomplete="email" required maxlength="30">
                         <label for="ilogin">email</label>
                     </div>
 
                     <div class="campo">
+                        <span class="material-symbols-outlined">vpn_key</span>
+
                         <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="7" maxlength="18">
                         <label for="isenha">senha</label>
                     </div>
 
-                    <input type="button" value="entrar">
+                    <input type="submit" value="Entrar">
 
                     <a href="esqueci.html" class="botao">
                         Esqueci a senha
+                        <span class="material-symbols-outlined">mail</span>
                     </a>
 
                 </form>
