@@ -44,3 +44,18 @@ section#login > div#imagem {
     height: 200px;
 }
 
+section#login > div#formulario {
+    padding: 15px;
+}
+
+section#login > div#formulario > h1 {
+    text-align: center;
+}
+
+section#login > div#formulario > p {
+    font-size: .8em;
+    padding-top: 7px;
+    padding-bottom: 15px;
+}
+
+
