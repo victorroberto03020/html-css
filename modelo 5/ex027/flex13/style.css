@@ -12,16 +12,16 @@ body {
     line-height: 1.5em; 
 }
 
-p {
-    margin-bottom: 10px;
-    margin-top: 10px;
-    text-align: justify;
-}
-
 h1, h2 {
     margin-bottom: 10px;
     line-height: 1.5em;
     text-align: left;
+}
+
+p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: justify;
 }
 
 .normal {
@@ -32,4 +32,45 @@ h1, h2 {
 .flex-content {
     background-color: rgba(163, 162, 162, 0.966);
     padding: 15px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    border: 2px dashed green;
+}
+
+.media-text {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+}
+
+.text-media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+div.text {
+    flex: 1 1 500px;
+
+    border: 2px dashed red;
+}
+
+div.media {
+    flex: 1 0 400px;
+
+    border: 2px dashed blue;
+}
+
+.media > img {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+.media > iframe {
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    width: 90%;
 }
