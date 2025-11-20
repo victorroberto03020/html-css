@@ -53,20 +53,20 @@ div.text {
 }
 
 div.media {
+    display: flex;
+    justify-content: center;
     flex: 1 0 500px;
 }
 
 div > img {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 75%;
     padding-bottom: 15px;
 }
 
 div > iframe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    width: 80%;
     padding-bottom: 15px;
 }
 
