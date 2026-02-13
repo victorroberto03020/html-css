@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(21, 25px);
+    grid-template-columns: repeat(23, 1fr);
+    background-color: lightblue;
+    border: 2px solid black;
+    gap: 10px;
+}
+
+.caixa1 {
+    background-color: #ffffff;
+    border: 2px solid black;
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+}
+
+.caixa2 {
+    background-color: #ffffff;
+    border: 2px solid black;
+    grid-row: 2 / 6;
+    grid-column: 2 / 12;
+}
+
+.caixa3 {
+    background-color: #ffffff;
+    border: 2px solid black; 
+    grid-row: 2 / 6;
+    grid-column: 13 / 23;
+}
+
+.caixa4 {
+    background-color: #ffffff;
+    border: 2px solid black;
+    grid-row: 6 / 12;
+    grid-column: 2 / 9;
+}
+
+.caixa5 {
+    background-color: #ffffffff;
+    border: 2px solid black;
+    grid-row: 6 / 13;
+    grid-column: 9 / 23;
+}
+
+.caixa6 {
+    background-color: #ffffffff;
+    border: 2px solid black;
+    grid-row: 12 / 14;
+    grid-column: 2 / 9;
+}
+
+.caixa7 {
+    background-color: #ffffffff;
+    border: 2px solid black;
+    grid-row: 13 / 18;
+    grid-column: 9 / 23;
+}
+
+.caixa8 {
+    background-color: #ffffffff;
+    border: 2px solid black;
+    grid-row: 14 / 19;
+    grid-column: 2 / 9;
+}
+
+.caixa9 {
+    background-color: #ffffffff;
+    border: 2px solid black;
+    grid-row: 18 / 19;
+    grid-column: 9 / 23;
+}
+
+.caixa10 {
+    background-color: #ffffffff;
+    border: 2px solid black;
+    grid-row: 19 / 21;
+    grid-column: 2 / 5;
+}
+
+.caixa11 {
+    background-color: #ffffffff;
+    border: 2px solid black;
+    grid-row: 19 / 21;
+    grid-column: 5 / 8;
+}
+
+.caixa12 {
+    background-color: #ffffffff;
+    border: 2px solid black;
+    grid-row: 19 / 21;
+    grid-column: 8 / 11;
+}
+
+.caixa13 {
+    background-color: #ffffffff;
+    border: 2px solid black;
+    grid-row: 19 / 21;
+    grid-column: 11 / 14;
+}
+
+.caixa14 {
+    background-color: #ffffffff;
+    border: 2px solid black;
+    grid-row: 19 / 21;
+    grid-column: 14 / 17;
+}
+
+.caixa15 {
+    background-color: #ffffffff;
+    border: 2px solid black;
+    grid-row: 19 / 21;
+    grid-column: 17 / 20;
+}
+
+.caixa16 {
+    background-color: #ffffffff;
+    border: 2px solid black;
+    grid-row: 19 / 21;
+    grid-column: 20 / 23;
+}
